@@ -1,3 +1,8 @@
+window.onload = function tocar(){
+    musica.play();
+}
+tocar();
+
 //vamos instanciar nossos elementos
 const pokemonPic = document.querySelector('#pokemonPic');
 const pokemonNumber = document.querySelector('#pokemonNumber');
@@ -29,10 +34,10 @@ const pokémon = {
     },
 }
 
-window.onload = function tocar(){
+/*window.onload = function tocar(){
     musica.play();
 }
-tocar();
+tocar();*/
 
 function pokemon1(){ 
     botoes[0].addEventListener('click', function() {
