@@ -1,8 +1,3 @@
-window.onload = function tocar(){
-    musica.play();
-}
-tocar();
-
 //vamos instanciar nossos elementos
 const pokemonPic = document.querySelector('#pokemonPic');
 const pokemonNumber = document.querySelector('#pokemonNumber');
@@ -33,6 +28,16 @@ const pokémon = {
         É um dos três Pokémon iniciais da região de Kanto.`
     },
 }
+
+function tocar(){
+    //descomente a linha abaixo para incluir a música
+    musica.play();
+}
+tocar();
+document.addEventListener("click", function() {
+    tocar();
+}, {once : true});
+
 
 function pokemon1(){ 
     botoes[0].addEventListener('click', function() {
