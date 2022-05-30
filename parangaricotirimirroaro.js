@@ -1,4 +1,7 @@
-
+window.onload = function tocar(){
+    musica.play();
+}
+tocar();
 
 //vamos instanciar nossos elementos
 const pokemonPic = document.querySelector('#pokemonPic');
@@ -30,12 +33,6 @@ const pokémon = {
         É um dos três Pokémon iniciais da região de Kanto.`
     },
 }
-function enableAutoPlay(); {
-    let music = document.getElementById('musica')
-    music.autoplay = true;
-} 
-enableAutoPlay();
-
 
 function pokemon1(){ 
     botoes[0].addEventListener('click', function() {
