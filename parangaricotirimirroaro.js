@@ -31,10 +31,8 @@ const pokémon = {
     },
 }
 
-/*window.onload = function tocar(){
-    musica.play();
-}
-tocar();*/
+let music = document.getElementById('musica')
+music.autoplay = true;
 
 function pokemon1(){ 
     botoes[0].addEventListener('click', function() {
