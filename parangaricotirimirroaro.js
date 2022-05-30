@@ -29,15 +29,10 @@ const pokémon = {
     },
 }
 
-function tocar(){
-    //descomente a linha abaixo para incluir a música
+window.onload = function tocar(){
     musica.play();
 }
 tocar();
-document.addEventListener("click", function() {
-    tocar();
-}, {once : true});
-
 
 function pokemon1(){ 
     botoes[0].addEventListener('click', function() {
