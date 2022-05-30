@@ -31,7 +31,7 @@ const pokémon = {
 
 function tocar(){
     //descomente a linha abaixo para incluir a música
-   // musica.play();
+    musica.play();
 }
 tocar();
 document.addEventListener("click", function() {
