@@ -1,7 +1,4 @@
-window.onload = function tocar(){
-    musica.play();
-}
-tocar();
+
 
 //vamos instanciar nossos elementos
 const pokemonPic = document.querySelector('#pokemonPic');
