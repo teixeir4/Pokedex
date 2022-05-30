@@ -30,9 +30,12 @@ const pokémon = {
         É um dos três Pokémon iniciais da região de Kanto.`
     },
 }
+function enableAutoPlay(); {
+    let music = document.getElementById('musica')
+    music.autoplay = true;
+} 
+enableAutoPlay();
 
-let music = document.getElementById('musica')
-music.autoplay = true;
 
 function pokemon1(){ 
     botoes[0].addEventListener('click', function() {
